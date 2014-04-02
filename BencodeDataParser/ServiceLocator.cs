@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Practices.Unity;
 
+// Some comment...
+// Another comment...
+
 namespace MyTorrent.BencodeDataParser
 {
     #region Aliases
