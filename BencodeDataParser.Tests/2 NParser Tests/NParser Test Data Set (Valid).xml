@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <ValidElement>
+    <TestCaseID>0</TestCaseID>
+    <BencodeData>i0e</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>1</TestCaseID>
+    <BencodeData>i10e</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>2</TestCaseID>
+    <BencodeData>i-20e</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>3</TestCaseID>
+    <BencodeData>i10000000000e</BencodeData>
+  </ValidElement>
+</TestCases>

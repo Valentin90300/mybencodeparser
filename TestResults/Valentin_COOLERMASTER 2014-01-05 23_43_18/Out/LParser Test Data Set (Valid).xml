@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <!-- a и b - маркеры элементов, реализующих интерфейс IElement -->
+  <ValidElement>
+    <TestCaseID>0</TestCaseID>
+    <BencodeData>le</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>1</TestCaseID>
+    <BencodeData>labe</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>2</TestCaseID>
+    <BencodeData>llaee</BencodeData>
+  </ValidElement>
+</TestCases>

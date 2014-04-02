@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <!-- Элемент ListElement сам по себе не определяет данных или связей между ними,
+       он только служит контейнером для других элементов, поэтому парсер ListParser
+       в принципе не генерирует исключения InvalidFormatException -->  
+</TestCases>

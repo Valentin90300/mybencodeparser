@@ -1,0 +1,9 @@
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\BencodeDataParser.dll
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\BencodeDataParser.pdb
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\obj\Debug\BencodeDataParser.dll
+C:\Users\Valentin\SkyDrive\Документы\Visual Studio Projects\2010\MyTorrent\BencodeDataParser\obj\Debug\BencodeDataParser.pdb

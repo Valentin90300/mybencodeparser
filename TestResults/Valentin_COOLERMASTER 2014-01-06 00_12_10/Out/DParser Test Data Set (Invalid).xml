@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <!-- x и y - маркеры элементов, реализующих интерфейс ISElement -->
+  <!-- a и b - маркеры элементов, реализующих интерфейс IElement -->
+  <InvalidElement>
+    <BencodeData>dxe</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>dabe</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>dybxae</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>dxaxbe</BencodeData>
+  </InvalidElement>
+</TestCases>

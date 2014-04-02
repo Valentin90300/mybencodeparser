@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <IncompleteElement>
+    <BencodeData>i</BencodeData>
+  </IncompleteElement>
+  <IncompleteElement>
+    <BencodeData>i10</BencodeData>
+  </IncompleteElement>
+</TestCases>

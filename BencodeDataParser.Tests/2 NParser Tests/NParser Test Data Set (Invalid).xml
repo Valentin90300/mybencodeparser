@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <InvalidElement>
+    <BencodeData>ie</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i1x0e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i1.0e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i1E2e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i00e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i010e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i-020e</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>i100000000000000000000e</BencodeData>
+  </InvalidElement>
+</TestCases>

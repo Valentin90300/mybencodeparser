@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <!-- a - маркер элемента, реализующего интерфейс IElement -->
+  <IncompleteElement>
+    <BencodeData>l</BencodeData>
+  </IncompleteElement>
+  <IncompleteElement>
+    <BencodeData>la</BencodeData>
+  </IncompleteElement>
+</TestCases>

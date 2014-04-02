@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D896513F-CF9A-408D-BB0C-DB9E2B90BBBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyTorrent.BencodeDataParser</RootNamespace>
+    <AssemblyName>BencodeDataParser</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Unity Application Block 2.1\Bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggregativeParser.cs" />
+    <Compile Include="BencodeDataParser.cs" />
+    <Compile Include="Element%27s parsers\Classes\Factories\Container Parser%27s Factories.cs" />
+    <Compile Include="Element%27s parsers\Classes\Parsers\4 DParser.cs" />
+    <Compile Include="Element%27s parsers\Classes\Parsers\2 NParser.cs" />
+    <Compile Include="Element%27s parsers\Classes\Parsers\3 LParser.cs" />
+    <Compile Include="Element%27s parsers\Classes\Parsers\1 SParser.cs" />
+    <Compile Include="Element%27s parsers\Interfaces\Factories\IContainerParserFactory.cs" />
+    <Compile Include="Element%27s parsers\Interfaces\Parsers\Parser Interface.cs" />
+    <Compile Include="Elements\Classes\Elements\4 DElement.cs" />
+    <Compile Include="Elements\Classes\Elements\2 NElement.cs" />
+    <Compile Include="Elements\Classes\Elements\3 LElement.cs" />
+    <Compile Include="Elements\Classes\Elements\1 SElement.cs" />
+    <Compile Include="Elements\Classes\Factories\Element%27s Factories.cs" />
+    <Compile Include="Elements\Interfaces\Elements\IElement Hierarchy.cs" />
+    <Compile Include="Elements\Interfaces\Factories\Element%27s Factories.cs" />
+    <Compile Include="Exceptions\IOffsetProvider.cs" />
+    <Compile Include="Exceptions\CantConvertToUTF8StringException.cs" />
+    <Compile Include="Exceptions\InvalidFormatException.cs" />
+    <Compile Include="Exceptions\InvalidMarkerException.cs" />
+    <Compile Include="Exceptions\StreamCantReadException.cs" />
+    <Compile Include="Exceptions\StreamDisposedException.cs" />
+    <Compile Include="Exceptions\StreamEndException.cs" />
+    <Compile Include="Exceptions\StreamIOException.cs" />
+    <Compile Include="Exceptions\StreamNullException.cs" />
+    <Compile Include="Exceptions\StreamCantSeekException.cs" />
+    <Compile Include="IAggregativeParser.cs" />
+    <Compile Include="IBencodeDataParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceLocator.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

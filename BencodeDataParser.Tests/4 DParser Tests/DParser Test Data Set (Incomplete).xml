@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <!-- x - маркер элемента, реализующего интерфейс ISElement -->
+  <!-- a - маркер элемента, реализующего интерфейс IElement -->
+  <IncompleteElement>
+    <BencodeData>d</BencodeData>
+  </IncompleteElement>
+  <IncompleteElement>
+    <BencodeData>dx</BencodeData>
+  </IncompleteElement>
+  <IncompleteElement>
+    <BencodeData>dxa</BencodeData>
+  </IncompleteElement>
+</TestCases>

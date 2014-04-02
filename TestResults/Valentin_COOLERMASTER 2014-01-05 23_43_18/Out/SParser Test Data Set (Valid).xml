@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <ValidElement>
+    <TestCaseID>0</TestCaseID>
+    <BencodeData>0:</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>1</TestCaseID>
+    <BencodeData>6:string</BencodeData>
+  </ValidElement>
+  <ValidElement>
+    <TestCaseID>2</TestCaseID>
+    <BencodeData>12:строка</BencodeData>
+  </ValidElement>
+</TestCases>

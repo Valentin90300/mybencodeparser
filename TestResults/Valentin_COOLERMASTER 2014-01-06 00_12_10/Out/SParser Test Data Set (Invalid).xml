@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <InvalidElement>
+    <BencodeData>:abc</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>x:abc</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>-1:abc</BencodeData>
+  </InvalidElement>
+  <InvalidElement>
+    <BencodeData>03:abc</BencodeData>
+  </InvalidElement>  
+</TestCases>
